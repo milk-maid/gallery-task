@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+}
+img {
+  object-fit: cover;
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-areas:
+    "one two three"
+    "four five six";
+  gap: 25px 25px;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.item {
+  /* width: auto; */
+}
