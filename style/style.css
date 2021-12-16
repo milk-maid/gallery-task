@@ -51,5 +51,6 @@ p {
 }
 
 .item {
-  /* width: auto; */
+  width: 250px;
+  height: 250px;
 }
